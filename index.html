@@ -1,439 +1,288 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>Hello World!</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="keywords" content="Emanuel Gomes, Guarabira, Desenvolvedor, Programador, Paraíba, Sites, Developer, Python Brasil, IFPB, Software" />
-    <meta name=”description” content="Site Pessoal de Emanuel Gomes, Desenvolvedor/Programador de sites responsivos em Guarabira e Região da Paraíba. Sou Técnico em Informática formado pelo IFPB Campus Guarabira. Desenvolve sites pessoais, Sites de Candidatura para Políticos.">
-    <!-- bootstrap 4.0.0-beta.2 -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css"
-        integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
-        crossorigin="anonymous">
-    <!-- main style -->
-    <link rel="stylesheet" type="text/css" href="css/main.css?v=2018.09.20">
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
-    <!-- Global Site Tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-107490980-1"></script>
+	<meta charset="utf-8">
+	<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="FrontEnd Developer">
+	<meta name="author"      content="Emanuel Gomes">
 
+	<title>Emanuel Gomes</title>
+
+	<link rel="shortcut icon" href="assets/images/favicon.gif">
+
+	<!-- Bootstrap -->
+	<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.no-icons.min.css" rel="stylesheet">
+	<!-- Icons -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+	<!-- Fonts -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Alice|Open+Sans:400,300,700">
+	<!-- Custom styles -->
+	<link rel="stylesheet" href="assets/css/styles.css">
+
+	<!--[if lt IE 9]> <script src="assets/js/html5shiv.js"></script> <![endif]-->
 </head>
+<body class="home">
 
-<body>
-    <header>
-        <div class='slider-navigation'>
-            <div class='nav-pointer draggable'>
+<header id="header">
+	<div id="head" class="parallax" parallax-speed="2">
+		<h1 id="logo" class="text-center">
+			<img class="img-circle" src="assets/images/guy.jpg" alt="">
+			<span class="title">Emanuel Gomes</span>
+			<span class="tagline">FrontEnd Developer<br>
+				emanuel.gfsdeveloper@gmail.com</span>
+		</h1>
+	</div>
 
-            </div>
-        </div>
-    </header>
-    <div class='site-container'>
-        <!-- select style button -->
-        <section class='intro'>
-            <div id='particles-js'></div>
-            <div class='wrap'>
-                <div class='content'>
-                    <div class="profile-card">
-                        <header>
-                            <!-- avatar -->
-                            <a><img src="img/hd.jpg" class="unselectable"></a>
-                            <!-- name -->
-                            <h1 class="unselectable">Emanuel Gomes</h1>
-                            <!-- role -->
-                            <h2 class="unselectable">Front End Developer</h2>
-                        </header>
-                        <div class="profile-bio">
-                            <p class="unselectable">
-                                People > Technology
-                                <br>Python Enthusiast
-                            </p>
-                        </div>
-                        <!-- social links -->
-                        <ul class="profile-social-links">
-                            <li><a target="_blank" href="https://ca.linkedin.com/in/emanuel-gomes-ferreira">
-                                    <i class="fa fa-lg fa-linkedin"></i>
-                                </a>
-                            </li>
-                            <li><a target="_blank" href="http://lattes.cnpq.br/8909542538730656">
-                                    <i class="fa fa-lg fa-user-circle-o"></i>
-                                </a>
-                            </li>
-                            <li><a target="_blank" href="https://github.com/emanuel-gomes">
-                                    <i class="fa fa-lg fa-github-alt"></i>
-                                </a>
-                            </li>
-                            <li><a target="_blank" href="https://www.instagram.com/manel.ferreira_/">
-                                    <i class="fa fa-lg fa-instagram"></i>
-                                </a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <div class="parallax-window" data-parallax="scroll" data-image-src="img/joaopessoa3-1.jpg"></div>
-        <section>
-            <div class="about-me">
-                <div class="text-center">
-                    <img class="unselectable" src="img/about-me.png" height="100" width="550">
-                    <br><br>
-                </div>
-                <div class="clearfix"></div>
-                <div class="about-me__content" id="terminal-start">
-                    <p>Last login: Thu Oct 12 00:28:38 2019 from
-                        cpe44d9e79bd14b-cma84e3fd1a7d0.cpe.net.cable.rogers.com</p>
-                    <pre style="border: none;">
-         __|  __|_  )
-         _|  (     /   Emanuel's Linux LITE
-        ___|\___|___|
+	<!--nav class="navbar navbar-default navbar-sticky">
+		<div class="container-fluid">
 
-Emanuel's Linux LITE version 2019.01 is available.
-</pre>
-                    <br><br>
-                    <div class="command">
-                        <!-- email -->
-                        <p>echo $email</p>
-                        <span class="hideme">email: emanuel.gfsdeveloper@gmail.com</span>
-                        <!-- phone
-                        <p>echo $phone</p>
-                        <span class="hideme">phone: (647)-927-XXXX</span>
-                        -->
-                        <!-- address -->
-                        <p>echo $address</p>
-                        <span class="hideme">Address: João Pessoa, PB, Brazil</span>
-                        <!-- education -->
-                        <p>echo $education</p>
-                        <span class="hideme">Federal Institute of Paraíba • 2016 - 2019<br>
-                            Computer Technician;</span>
-                        <!-- eligible_to_work -->
-                        <p>echo $eligible_to_work</p>
-                        <span class="hideme">Permanent Resident of Brazil</span>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!--<div class="parallax-window-half" data-parallax="scroll" data-image-src="img/test-oct.png"></div>-->
-        <!--section class="flx-center">
-            <div class="text-center">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+			</div>
 
-                <!-- Block 5 (SHA-256 blockchain)
-                <div class="one-block latest-block">
-                    <p class="h4 text-center">Block #: 005</p>
-                    <p><label>Data:</label></p>
-                    <div class="block-data">
-                        <p>
-                            <label>Title:</label><b>Software Developer</b></p>
-                        <p>
-                            <label>Company:</label>Shopify Inc.</p>
-                        <p>
-                            <label>Stack:</label>MySQL, Ruby on Rails, React</p>
-                        <p>
-                            <label>Time:</label>May 2019 - Present</p>
-                    </div>
-                    <div>
-                        <br>
-                        <p class="truncate">
-                            <small><label>Hash: </label>9d169ad4b0875680b2256b5f8cfe9c02b977fe5cc2f1659ffdf63fc9955f4b45</small>
-                            <br>
-                            <small><label>Previous Hash: </label>964c3a9c26762dce89d124381b91f0469fb549915077377ba943b60a78e2eb54</small>
-                        </p>
-                    </div>
-                </div>
+			<div class="navbar-collapse collapse">
 
-                <!-- Block 4 (SHA-256 blockchain)
-                <div class="one-block">
-                    <p class="h4 text-center">Block #: 004</p>
-                    <p><label>Data:</label></p>
-                    <div class="block-data">
-                        <p>
-                            <label>Title:</label><b>Full Stack Developer</b></p>
-                        <p>
-                            <label>Company:</label>FarmLead.com</p>
-                        <p>
-                            <label>Stack:</label>MySQL, Python, Vue2, NodeJS, AWS, Salesforce</p>
-                        <p>
-                            <label>Time:</label>Feb 2017 - May 2019</p>
-                    </div>
-                    <div>
-                        <br>
-                        <p class="truncate">
-                            <small><label>Hash: </label>964c3a9c26762dce89d124381b91f0469fb549915077377ba943b60a78e2eb54</small>
-                            <br>
-                            <small><label>Previous Hash: </label>c9e0d20f8660f77636c18bed30d0331ccee6724e03ccbc37d7d73fdc13326a51</small>
-                        </p>
-                    </div>
-                </div>
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="index.html">Home</a></li>
+					<li><a href="about.html">Sobre mim</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">More Pages <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li><a href="sidebar-left.html">Left Sidebar</a></li>
+							<li><a href="sidebar-right.html">Right Sidebar</a></li>
+							<li><a href="single.html">Blog Post</a></li>
+						</ul>
+					</li>
+					<li><a href="blog.html">Blog</a></li>
+				</ul>
 
-                <!-- Block 3 (SHA-256 blockchain)
-                <div class="one-block">
-                    <p class="h4 text-center">Block #: 003</p>
-                    <p><label>Data:</label></p>
-                    <div class="block-data">
-                        <p>
-                            <label>Title:</label><b>Software Application Developer</b></p>
-                        <p>
-                            <label>Company:</label>i-Sight Software</p>
-                        <p>
-                            <label>Stack:</label>PostgresSQL, Node.js, JS, HTML5, CSS3</p>
-                        <p>
-                            <label>Time:</label>Mar 2016 - Feb 2017</p>
-                    </div>
-                    <div>
-                        <br>
-                        <p class="truncate">
-                            <small><label>Hash: </label>c9e0d20f8660f77636c18bed30d0331ccee6724e03ccbc37d7d73fdc13326a51</small>
-                            <br>
-                            <small><label>Previous Hash: </label>b2d7beff5177094f4a4aceb7c9bf1cc6434cd5a2b8d68cc0a572ac2e963cb2a2</small>
-                        </p>
-                    </div>
-                </div>
+			</div> --> <!--/.nav-collapse -->
+		</div>
+	</nav>-->
+</header>
 
-                <br>
-                <!-- Block 2 (SHA-256 blockchain)
-                <div class="one-block hide-mobile">
-                    <p class="h4 text-center">Block #: 002</p>
-                    <p><label>Data:</label></p>
-                    <div class="block-data">
-                        <p>
-                            <label>Title:</label><b>Front End Developer</b></p>
-                        <p>
-                            <label>Company:</label>FarmLead.com</p>
-                        <p>
-                            <label>Stack:</label>Vue.js, CoffeeScript, JS, HTML5, CSS3</p>
-                        <p>
-                            <label>Time:</label>June 2016 - Nov 2016</p>
-                    </div>
-                    <div>
-                        <br>
-                        <p class="truncate">
-                            <small><label>Hash: </label>b2d7beff5177094f4a4aceb7c9bf1cc6434cd5a2b8d68cc0a572ac2e963cb2a2</small>
-                            <br>
-                            <small><label>Previous Hash: </label>29aa94f65fa959c35fb44427d09018b95117be94b0d7eeb921e79c3cda20d174</small>
-                        </p>
-                    </div>
-                </div>
+<main id="main">
 
-                <!-- Block 1 (SHA-256 blockchain)
-                <div class="one-block hide-mobile">
-                    <p class="h4 text-center">Block #: 001</p>
-                    <p><label>Data:</label></p>
-                    <div class="block-data">
-                        <p>
-                            <label>Title:</label><b>Web Developer</b></p>
-                        <p>
-                            <label>Company:</label>Events.com</p>
-                        <p>
-                            <label>Stack:</label>LAMP, PHP5, JS, HTML5, CSS3</p>
-                        <p>
-                            <label>Time:</label>Mar 2015 - Feb 2016</p>
-                    </div>
-                    <div>
-                        <br>
-                        <p class="truncate">
-                            <small><label>Hash: </label>29aa94f65fa959c35fb44427d09018b95117be94b0d7eeb921e79c3cda20d174</small>
-                            <br>
-                            <small><label>&nbsp;</label>"Genesis Block"</small>
-                        </p>
-                    </div>
-                </div> -->
+	<div class="container">
 
-            </div>
-        </section-->
-        <!--<div class="parallax-window" data-parallax="scroll" data-image-src="img/test-oct-6.png"></div>-->
-        <!-- =================== script =================== -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
-        <script src="lib/parallax.js-1.4.2/parallax.min.js"></script>
-        <!-- Latest compiled and minified JavaScript -->
+		<div class="row section topspace">
+			<div class="col-md-12">
+				<p class="lead text-center text-muted">Coder in constant training. </p>
+			</div>
+		</div> <!-- / section -->
 
-        <!-- particles js -->
-        <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+		<div class="row section featured topspace">
+			<h2 class="section-title"><span>Services</span></h2>
+			<div class="row">
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">Web <br>design</h3>
+					<p></p>
+					<!--<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>-->
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">FrontEnd Developer</h3>
+					<p></p>
+					<!--<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>-->
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">Technical Consultancy</h3>
+					<p></p>
+					<!--<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>-->
+				</div>
+				<div class="col-sm-6 col-md-3">
+					<h3 class="text-center">Social <br>Education</h3>
+					<p></p>
+					<!--<p class="text-center"><a href="" class="btn btn-action">Read more</a></p>-->
+				</div>
+			</div>
+		</div> <!-- / section -->
 
-        <!-- bootstrap 4.0.0-beta.2 -->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh"
-            crossorigin="anonymous"></script>
-        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ"
-            crossorigin="anonymous"></script>
+		<div class="row section recentworks topspace">
 
-        <!-- main js file -->
-        <script src="js/main.js"></script>
+			<h2 class="section-title"><span>Recent Works</span></h2>
 
-        <script>
-            $(document).ready(function () {
+			<div class="thumbnails recentworks row">
 
-                // random style on page load
-                let display_text = ''
-                switch (Math.round(Math.random() * 2 + 1)) {
-                    case 1:
-                        styleDefault();
-                        display_text = 'Style Block'
-                        break;
-                    default:
-                        styleSpace();
-                        display_text = 'Style Block'
-                }
-                $('#selstyle').text(display_text);
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">LáNoCentro</span>
+					</a>
+					<span class="details"><a href="">FrontEnd</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
 
-                $('#changestyle .dropdown-menu a').click(function () {
-                    var style = $(this).data('val');
-                    switch (style) {
-                        case 'default':
-                            styleDefault();
-                            break;
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="http://laced.com.br/">
+						<span class="img">
+							<img src="assets/images/lacedsite.png" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Laced</span>
+					</a>
+					<span class="details"><a href="">Web design</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
 
-                    }
-                    $('#selstyle').text($(this).text());
-                });
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="http://laced.com.br/ori/">
+						<span class="img">
+							<img src="assets/images/orisite.png" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">ORI</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Operational Director</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
+				<!--
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Pure ipsum - development services for people</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Wordpress</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
 
-                /*-------------------------------
-                    terminal linux style
-                -------------------------------*/
-                var about_me_content_displayed = false;
-                var $lines = $('.command p');
-                $lines.hide();
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Lorem studios - interior and patio design</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
 
-                var lineContents = [];
-                var output = [];
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+					<a class="thumbnail" href="sidebar-right.html">
+						<span class="img">
+							<img src="assets/images/s1.jpg" alt="">
+							<span class="cover"><span class="more">See details &rarr;</span></span>
+						</span>
+						<span class="title">Lorem studios - interior and patio design</span>
+					</a>
+					<span class="details"><a href="">Web design</a> | <a href="">Logotype</a></span>
+					<h4></h4>
+					<p></p>
+				</div>
+			</div>
 
-                var terminal = function () {
-                    var skip = 0;
-                    typeLine = function (idx) {
-                        idx == null && (idx = 0);
-                        var element = $lines.eq(idx);
-                        var content = lineContents[idx];
-                        if (typeof content == "undefined") {
-                            $('.skip').hide();
-                            return;
-                        }
-                        var charIdx = 0;
-                        var typeChar = function () {
-                            var rand = Math.round(Math.random() * 150) + 20;
+		</div> --><!-- /section -->
 
-                            setTimeout(function () {
-                                var char = content[charIdx++];
-                                element.append(char);
-                                if (typeof char !== "undefined")
-                                    typeChar();
-                                else {
-                                    element.append('<br/><span class="output">' + output[idx] + '</span>');
-                                    element.removeClass('active');
-                                    typeLine(++idx);
-                                }
-                            }, skip ? 0 : rand);
-                        }
-                        element.append('[emanuel@ip-127-0-0-1 ~]$ ').addClass('active');
-                        typeChar();
-                    }
+		<!--<div class="row section topspace">
+			<div class="panel panel-cta"><div class="panel-body">
+				<div class="col-lg-8">
+					<p>A simple, nice-looking <b>call to action box</b>. Boxing is about respect. getting it for yourself,
+					and taking it away from the other guy. no, this is mount everest. </p>
+				</div>
+				<div class="col-lg-4 text-right">
+					<a href="http://www.gettemplate.com/downloads/initio.zip " class="btn btn-primary btn-lg">Download template</a>
+				</div>
+			</div></div>
+		</div> --><!-- /section -->
 
-                    $lines.each(function (i) {
-                        lineContents[i] = $(this).text();
-                        output[i] = $(this).next('span').html();
-                        $(this).text('').show();
-                    });
-                    typeLine();
-                }
+		<!--div class="row section clients topspace">
+			<h2 class="section-title"><span>Clients</span></h2>
+			<div class="col-lg-12">
+				<p>
+					<img src="assets/images/sample_clients.png" alt="">
+				</p>
+			</div>
+		</div--> <!-- /section -->
 
-                $(window).scroll(function () {
-                    var hT = $('#terminal-start').offset().top,
-                        hH = $('#terminal-start').outerHeight(),
-                        wH = $(window).height(),
-                        wS = $(this).scrollTop() - 250;
-                    if (wS > (hT + hH - wH) && !about_me_content_displayed) {
-                        about_me_content_displayed = true;
-                        terminal();
-                    }
-                });// end terminal style -------
+	</div>	<!-- /container -->
 
-                $('section').each(function () {
-                    $('.slider-navigation').prepend('<div class="tick"></div>');
-                });
+</main>
 
-                $('.tick').on('click', function () {
-                    var tickIndex = $(this).index();
-                    $('body').scrollTop($(window).height() * tickIndex);
-                });
+<footer id="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Contact</h3>
+				<div class="widget-body">
+					<p>+55 (83) 9 9855-8560<br>
+						<a href="mailto:#">emanuel.gfsdeveloper@gmail.com</a><br>
+						<br>
+						Guarabira 58200-000, Paraíba, Brazil
+					</p>
+				</div>
+			</div>
 
-                updatePos();
-            }); // end document ready -------
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Follow me</h3>
+				<div class="widget-body">
+					<p class="follow-me-icons">
+						<!--<a href=""><i class="fa fa-twitter fa-2"></i></a>-->
+						<a href="https://www.instagram.com/emanuelgomes.dev/"><i class="fa fa-instagram fa-2"></i></a>
+						<a href="https://github.com/emanuel-gomes"><i class="fa fa-github fa-2"></i></a>
+						<a href="https://ca.linkedin.com/in/emanuel-gomes-ferreira"><i class="fa fa-linkedin fa-2"></i></a>
+					</p>
+				</div>
+			</div>
 
-            var isDragging = false;
-            var sliderTop, pointerPos, currentSection;
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Text widget</h3>
+				<div class="widget-body">
+					<p>Web Developer in Training</p>
+				</div>
+			</div>
 
-            var bodyHeight = $('body').height();
-            var sliderHeight = $('.slider-navigation').height();
-            var elementHeight = $('section').height();
-            var sectionAmount = $('section').length;
-            var scale = (bodyHeight - (elementHeight)) / (sliderHeight - $('.nav-pointer').outerHeight());
+			<div class="col-md-3 widget">
+				<h3 class="widget-title">Form widget</h3>
+				<div class="widget-body">
+					<p>+55 (83) 9 9855-8560<br>
+						<a href="mailto:#">emanuel.gfsdeveloper@gmail.com</a><br>
+						<br>
+						Guarabira 58200-000, Paraíba, Brazil
+					</p>
+				</div>
+			</div>
 
-            var waitForFinalEvent = (function () {
-                var timers = {};
-                return function (callback, ms, uniqueId) {
-                    if (!uniqueId) {
-                        uniqueId = "resize";
-                    }
-                    if (timers[uniqueId]) {
-                        clearTimeout(timers[uniqueId]);
-                    }
-                    timers[uniqueId] = setTimeout(callback, ms);
-                };
-            })();
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
 
-            function updatePos() {
-                currentSection = $(window).scrollTop() / elementHeight;
-                currentSectionNum = Math.ceil(currentSection + 0.01);
-                sliderTop = $(window).scrollTop() / scale;
-                $('.nav-pointer').css('top', sliderTop).text(currentSectionNum + '/' + sectionAmount);
-            }
+<footer id="underfooter">
+	<div class="container">
+		<div class="row">
 
-            function sliderMove(e) {
-                $('body').scrollTop(parseInt(e) * scale);
-            }
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p>Guarabira 58200-000, Paraíba, Brazil </p>
+				</div>
+			</div>
 
-            $(window).scroll(function () {
-                if (!isDragging) {
-                    updatePos();
-                }
-            });
+			<div class="col-md-6 widget">
+				<div class="widget-body">
+					<p class="text-right">
+						Copyright &copy; <script>document.write(new Date().getFullYear());</script></a> </p>
+				</div>
+			</div>
 
-            $(window).resize(function () {
-                waitForFinalEvent(function () {
-                    bodyHeight = $('body').height();
-                    sliderHeight = $('.slider-navigation').height();
-                    elementHeight = $('section').height();
-                    sectionAmount = $('section').length;
-                    scale = (bodyHeight - (elementHeight)) / (sliderHeight - $('.nav-pointer').outerHeight());
+		</div> <!-- /row of widgets -->
+	</div>
+</footer>
 
-                    updatePos();
-                }, 500, "resizing");
-            });
 
-            // $(".draggable").draggable({
-            //  axis: "y",
-            //  containment: "parent",
-            //  start: function() {
-            //      isDragging = true;
-            //      $('body').addClass('dragging');
-            //  },
-            //  drag: function() {
-            //      pointerPos = $(this).css('top');
-            //      sliderMove(pointerPos);
-            //      updatePos();
-            //  },
-            //  stop: function() {
-            //      isDragging = false;
-            //      $('body').removeClass('dragging');
-            //  }
-            // });
 
-            // Steve Jobs Quotes
-            console.log("\n \t Your work is going to fill a large part of your life,\n and the only way to be " +
-                "truly satisfied is to do what you \n believe is great work. And the only way to do great" +
-                " work \n is to love what you do. If you haven't found it yet, keep \n looking. Don't settle." +
-                " As with all matters of the heart, \n you'll know when you find it.\n\n\n \t\t\t\t\t\t\t\t\t\t\t " +
-                "Steve Jobs \n\n");
-
-        </script>
+<!-- JavaScript libs are placed at the end of the document so the pages load faster -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="assets/js/template.js"></script>
 </body>
-
 </html>
